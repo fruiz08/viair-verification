@@ -1,0 +1,103 @@
+{
+  "address": "0x021c018ff346C4c9DCEf6302B20956FAb54Bd638",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getResult",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "a_",
+          "type": "uint256"
+        }
+      ],
+      "name": "setNumberA",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "b_",
+          "type": "uint256"
+        }
+      ],
+      "name": "setNumberB",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x4404873f781b5bc5109ed86eeba6add96d60b3cb459679760ffc8e54bb41d161",
+  "receipt": {
+    "to": null,
+    "from": "0xF4695CFF1E7dD0201b71a8A4F01D0450f89cC46C",
+    "contractAddress": "0x021c018ff346C4c9DCEf6302B20956FAb54Bd638",
+    "transactionIndex": 0,
+    "gasUsed": "114729",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x9ba8df6a6c6c42ddbcbf3426f1f4a35f1a9a291bbe56ebbab1bfcf1c2fb19cf9",
+    "transactionHash": "0x4404873f781b5bc5109ed86eeba6add96d60b3cb459679760ffc8e54bb41d161",
+    "logs": [],
+    "blockNumber": 4516955,
+    "cumulativeGasUsed": "114729",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "de7cceb9a69a843fcdb1cc738df8e4ec",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getResult\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"a_\",\"type\":\"uint256\"}],\"name\":\"setNumberA\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"b_\",\"type\":\"uint256\"}],\"name\":\"setNumberB\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Test.sol\":\"Test\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"details\":{\"constantOptimizer\":true,\"cse\":true,\"deduplicate\":true,\"inliner\":true,\"jumpdestRemover\":true,\"orderLiterals\":true,\"peephole\":true,\"yul\":true,\"yulDetails\":{\"optimizerSteps\":\"dhfoDgvulfnTUtnIf[xa[r]EscLMcCTUtTOntnfDIulLculVcul[j]Tpeulxa[rul]xa[r]cLgvifCTUca[r]LSsTOtfDnca[r]Iulc]jmul[jul]VcTOculjmul:fDnTOc\",\"stackAllocation\":true}},\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"contracts/Test.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity 0.8.20;\\n\\ncontract Test {\\n\\n    uint256 internal a;\\n    uint256 internal b;\\n\\n    function setNumberA(uint256 a_) external {\\n        a = a_;\\n    }\\n\\n    function setNumberB(uint256 b_) external {\\n        b = b_;\\n    }\\n\\n    function getResult() external view returns(uint256){\\n        return a + b;\\n    }\\n}\",\"keccak256\":\"0x8a204de5ec82f057f4386239f10da1dc0ae15564d27a3dd282ca54be61f1d72b\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608080604052346100155760e1908161001b8239f35b600080fdfe6080806040526004361015601257600080fd5b600090813560e01c80634c67b7681460935780636e19ab5d1460775763de29278914603c57600080fd5b346073578160031936011260735781546001548101809111605f57602092508152f35b634e487b7160e01b83526011600452602483fd5b5080fd5b8234609057602036600319011260905760043560015580f35b80fd5b82346090576020366003190112609057600435815580f3fea264697066735822122062ad3c0e70568d95c28ad5607922bae62101103f8173db392528c6cb644212fc64736f6c63430008140033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b600090813560e01c80634c67b7681460935780636e19ab5d1460775763de29278914603c57600080fd5b346073578160031936011260735781546001548101809111605f57602092508152f35b634e487b7160e01b83526011600452602483fd5b5080fd5b8234609057602036600319011260905760043560015580f35b80fd5b82346090576020366003190112609057600435815580f3fea264697066735822122062ad3c0e70568d95c28ad5607922bae62101103f8173db392528c6cb644212fc64736f6c63430008140033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/Test.sol:Test",
+        "label": "a",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 5,
+        "contract": "contracts/Test.sol:Test",
+        "label": "b",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
